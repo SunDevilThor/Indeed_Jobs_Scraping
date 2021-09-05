@@ -50,7 +50,7 @@ joblist = []
 
 for i in range(0, 90, 10):
     print(f'Getting page, {i}')
-    c = extract(0)
+    c = extract(i)
     # print(transform(c))
     transform(c)
     #pprint.pprint(joblist)
